@@ -1,8 +1,9 @@
 // Render the circles using React!
 const App = (props) => {
+    console.log('props: ', props)
     let { circles } = props;
     return (
-        <span>circles</span>
+        <span>{ props }</span>
     )
 }
 
